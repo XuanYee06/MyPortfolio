@@ -1384,6 +1384,10 @@ body {
   .title {
     font-size: 35px !important;
   }
+  #skills .container {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
   .column-title {
     font-size: 26px !important;
   }
