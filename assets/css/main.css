@@ -1192,7 +1192,7 @@ body {
   color:rgb(0, 0, 0) !important; 
   font-size:70px; 
   margin-top: 10px;
-  margin-bottom: 70px;
+  margin-bottom: 60px;
   font-weight: 10;
 }
 .skills-container{display:flex;
@@ -1617,7 +1617,7 @@ body {
 }
 
 .project-title {
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   font-weight: 700;
   margin-bottom: 9px;
   margin-top: 10px;
@@ -1625,10 +1625,11 @@ body {
   text-align: center; 
 }
 
-.project-reflection {
+.project-description{
   line-height: 1.7;
   color: #444;
   margin-bottom: 30px;
+  text-align: center; 
 }
 
 /* Button */
