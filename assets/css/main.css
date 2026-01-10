@@ -1575,23 +1575,81 @@ body {
     object-fit: cover;
     border-radius: 8px;
 }
-.btn-wrapper {
-    text-align: center;   
-    margin-top: 15px;     
+
+.projects-container {
+    padding-top: 100px; 
 }
+#projects-wrapper {
+    width: 100%;
+    max-width: 1100px;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 60px 40px 40px 40px;
+    border-radius: 12px;
+	margin: 0 auto; 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+	height: auto !important;
+}
+.project-card {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.project-card {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden; /* important for rounded image */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Full-size image */
+.project-image video {
+  width: 70%;
+  height: auto;        /* adjust if needed */
+  object-fit: cover;   /* prevents stretching */
+  display: block;
+  margin: 0 auto;
+}
+
+/* Content area */
+.project-content {
+  padding: 24px;
+}
+
+.project-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 9px;
+  margin-top: 10px;
+  color: #3c3c3c !important;
+  text-align: center; 
+}
+
+.project-reflection {
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 30px;
+}
+
+/* Button */
+.btn-wrapper {
+  margin-top: 18px;
+  text-align: center;  
+}
+
 .more-btn {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 12px 25px;
-    background: #5d91da;        
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 6px;
-    transition: 0.2s ease-in-out;
+  display: inline-block;
+  padding: 10px 24px;
+  background: #000;
+  color: #fff;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .more-btn:hover {
-    background: #add5ff;
-    transform: translateY(-2px);
+  transform: translateY(-2px);
+  background: #add5ff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
