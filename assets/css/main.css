@@ -1555,27 +1555,18 @@ body {
 	margin-top: 10px;
 	font-size: 38px;
 }
-
 .card-contentt {
     display: flex;
     gap: 25px;
 }
-
-.left {
-    width: 35%;
-}
-
-.right {
-    width: 65%;
-}
-
+.left {width: 35%;}
+.right {width: 65%;}
 .left img {
     width: 100%;
     height: 260px;
     object-fit: cover;
     border-radius: 8px;
 }
-
 .projects-container {
     padding-top: 100px; 
 }
@@ -1598,20 +1589,17 @@ body {
 .project-card {
   background: #fff;
   border-radius: 16px;
-  overflow: hidden; /* important for rounded image */
+  overflow: hidden; 
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
 }
-
-/* Full-size image */
 .project-image video {
   width: 70%;
-  height: auto;        /* adjust if needed */
-  object-fit: cover;   /* prevents stretching */
+  height: auto;        
+  object-fit: cover;   
   display: block;
   margin: 0 auto;
 }
 
-/* Content area */
 .project-content {
   padding: 24px;
 }
@@ -1631,8 +1619,6 @@ body {
   margin-bottom: 30px;
   text-align: center; 
 }
-
-/* Button */
 .btn-wrapper {
   margin-top: 18px;
   text-align: center;  
