@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Projects</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+    <div id="vanta-bg">
+    <div class="projects-container">
+    <section id="projects-wrapper">
+        <h1 class="title">— MY PROJECTS —</h1>
+            <article class="project-card">
+            <div class="project-image">
+                <video 
+                    autoplay 
+                    loop 
+                    playsinline>
+                    <source src="images/Prototype Project.mp4" type="video/mp4"> Your browser does not support the video tag. </video>
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">Student Engagement or Wellness Analytics</h3>
+                <p class="project-description">
+                    This is a demo video of our digital prototype from the design thinking project. 
+                    We developed a low-fidelity prototype using Canva to showcase the core functionalities of the application. 
+                    Our solution emphasizes simplicity, interactivity and adaptability, demonstrating how the app can address user needs effectively.
+                    Click the button below to explore more details.</p>
+                <div class="btn-wrapper">
+                    <a class="more-btn"
+                    href="https://github.com/XuanYee06/MyUniversityJourney/blob/main/SECP1513%20-%20Technology%20and%20Information%20System/Design%20Thinking.md" target="_blank">MORE</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <div class="project-image">
+                <video 
+                    autoplay 
+                    loop 
+                    playsinline>
+                    <source src="images/DEEDS Demo.mp4" type="video/mp4"> Your browser does not support the video tag. </video>
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">Electronice Lift / Elevator Controller System</h3>
+                <p class="project-description">
+                    This video presents a simulation demo of an electronic elevator controller system, designed using a 3-bit synchronous counter based on D flip-flops as part of a Digital Logic course project. 
+                    The circuit is developed and simulated using DEEDS to demonstrate how sequential and combinational logic can be integrated in a real-world control system.</p>
+                <div class="btn-wrapper">
+                    <a class="more-btn"
+                    href="https://github.com/XuanYee06/MyUniversityJourney/tree/main/SECR1013%20-%20Digital%20Logic/Project" target="_blank">MORE</a>
+                </div>
+            </div>
+        </article>
+    </section></div>
+
+    <nav id="nav">
+        <div id="nav-full">
+            <ul>
+                <li><a href="index.html#home">🏠︎ Home</a></li>
+                <li><a href="index.html#banner"> About Me</a></li>
+                <li><a href="programs.html"> Program & Activities</a></li>
+                <li><a href="projects.html"> Projects</a></li>
+                <li><a href="index.html#skills"> Skills & Language</a></li>
+                <li><a href="index.html#features"> Courses</a></li>
+                <li><a href="index.html#contact">✉ Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="nav-icon-wrapper"><div id="nav-icon">&#9776;</div></div>
+    <div id="nav-collapsed">
+        <ul>
+            <li><a href="index.html#home">🏠︎ Home</a></li>
+            <li><a href="index.html#banner"> About Me</a></li>
+            <li><a href="programs.html"> Program & Activities</a></li>
+            <li><a href="projects.html"> Projects</a></li>
+            <li><a href="index.html#skills"> Skills & Language</a></li>
+            <li><a href="index.html#features"> Courses</a></li>
+            <li><a href="index.html#contact">✉ Contact</a></li>
+        </ul>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+    const isMobile = window.innerWidth < 768;
+    VANTA.NET({
+        el: "#vanta-bg",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 500.00,
+        minWidth: 500.00,
+        scale: isMobile ? 0.3 : 1.00,
+        scaleMobile: 1.00,
+        points: 10.00,
+        maxDistance: 8.00,
+        spacing: 40.00,
+        showDots: true,
+        color: 0x7b68ee,
+        backgroundColor: 0x000000,
+        speed: 0.05
+    });});
+
+</script>
+</body>
+
+
+</html>
