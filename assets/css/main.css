@@ -1612,7 +1612,15 @@ body {
   color: #3c3c3c !important;
   text-align: center; 
 }
-
+.project-image iframe {
+    width: 60%;
+    max-width: 800px;
+    aspect-ratio: 16 / 9;
+    display: block;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: none;
+}
 .project-description{
   line-height: 1.7;
   color: #444;
